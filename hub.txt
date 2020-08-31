@@ -1,6 +1,6 @@
-hub miRNAome
-shortLabel Human cellular microRNAome
-longLabel microRNA RNA-seq based data from 46 primary cell types and 42 cancer or immortalized cell lines.
+hub MySNPs
+shortLabel Personal Genomic Data
+longLabel My Personal SNP Genotype Data Track Hub
 genomesFile genomes.txt
-email mhalush1@jhmi.edu
+email parke321@purdue.edu
 descriptionUrl http://biorxiv.org/content/early/2017/03/24/120394
