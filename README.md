@@ -5,14 +5,16 @@ Use https://raw.githubusercontent.com/parke321/mytrackhub/master/hub.txt in the 
 
 
 mytrackhub - directory containing track hub files
-    |__ hub.txt -  a short description of hub properties
-    |__ genomes.txt - list of genome assemblies included in the hub data
-    |__ hg19 - directory of data for the hg19 (GRCh37) human assembly
-         |__ trackDb.txt - display properties for tracks in this directory
-         |__ dnase.html - description text for a DNase track 
-         |__ dnaseLiver.bigWig - wiggle plot of DNase in liver
-         |__ dnaseLiver.bigBed - regions of active DNase
-         |__ liverGenes.bigGenePred - gene annotations of genes over-expressed in liver tissue
+
+	|__ hub.txt -  a short description of hub properties
+	
+	|__ genomes.txt - list of genome assemblies included in the hub data
+	|__ hg19 - directory of data for the hg19 (GRCh37) human assembly
+		|__ trackDb.txt - display properties for tracks in this directory
+		|__ dnase.html - description text for a DNase track 
+		|__ dnaseLiver.bigWig - wiggle plot of DNase in liver
+		|__ dnaseLiver.bigBed - regions of active DNase
+		|__ liverGenes.bigGenePred - gene annotations of genes over-expressed in liver tissue
          |__ dnaseLung.bigWig - wiggle plot of DNase in lung
          |__ dnaseLung.bigWig - regions of active DNase
          |__ rnaSeq.html - description text for an RNAseq track
