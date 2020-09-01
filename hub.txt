@@ -3,4 +3,4 @@ shortLabel Personal Genomic Data
 longLabel My Personal SNP Genotype Data Track Hub
 genomesFile genomes.txt
 email parke321@purdue.edu
-descriptionUrl http://biorxiv.org/content/early/2017/03/24/120394
+descriptionUrl https://github.com/parke321/mytrackhub/blob/master/MySNPs.html
