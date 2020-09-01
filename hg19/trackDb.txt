@@ -4,6 +4,8 @@ type vcfTabix
 compositeTrack on
 shortLabel My SNPs
 longLabel My Genotype Data from AncestryDNA 
+hapClusterEnabled false
+maxWindowToDraw 3000000
 visibility pack 
 priority 1
 
@@ -27,5 +29,7 @@ type vcfTabix
 bigDataUrl mother/Mother.vcf.gz
 shortLabel Mother SNPs
 longLabel Mother Genotype Data from 23&Me
+hapClusterEnabled false
+maxWindowToDraw 3000000
 visibility pack 
 priority 2
