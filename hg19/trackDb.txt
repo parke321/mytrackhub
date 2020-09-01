@@ -8,41 +8,24 @@ visibility pack
 priority 1
 
                 track Alexa_chr1
+		type vcfTabix
                 bigDataUrl child/Alexa_chr1.vcf.gz
                 shortLabel Child chr1
                 longLabel Child SNPs on chr1 
                 parent MySNPs on
-                type vcfTabix
 		
 		track A_chr2
+		type vcfTabix
 		bigDataUrl child/Alexa_chr2.vcf.gz
 		shortLabel Child chr2
 		longLabel Child SNPs on chr2
                 parent MySNPs on
-                type vcfTabix
 				
 ########################################################
 track MotherSNPs
 type vcfTabix
-compositeTrack on
+bigDataUrl mother/Mother.vcf.gz
 shortLabel Mother SNPs
 longLabel Mother Genotype Data from 23&Me
 visibility pack 
 priority 2
-
-                track M_chr1 
-                bigDataUrl mother/Debi_chr1.vcf.gz
-                shortLabel Mother chr1
-                longLabel Mother SNPs on chr1 
-                parent MotherSNPs on
-                type vcfTabix
-		itemRgb on
-
-		track M_chr2
-		bigDataUrl mother/Debi_chr2.vcf.gz
-		shortLabel Mother chr2 
-		longLabel Mother SNPs on chr2 
-                parent MotherSNPs on
-                type vcfTabix
-		itemRgb on
-		
