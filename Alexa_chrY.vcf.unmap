@@ -1,7 +1,0 @@
-##fileformat=VCFv4.2
-##FILTER=<ID=PASS,Description="All filters passed">
-##contig=<ID=Y,length=59373566>
-##FORMAT=<ID=GT,Number=1,Type=String,Description="Genotype">
-#CHROM	POS	ID	REF	ALT	QUAL	FILTER	INFO	FORMAT	ALEXA
-Y	14639427	rs9786640	C	A	.	.	.	GT	1	Fail(REF==ALT)
-Y	15058878	rs9785956	G	A	.	.	.	GT	1	Fail(REF==ALT)
