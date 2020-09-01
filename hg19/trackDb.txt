@@ -1,27 +1,29 @@
-########################################################
 track MySNPs
 type vcfTabix
-compositeTrack on
+superTrack on show
 shortLabel My SNPs
 longLabel My Genotype Data from AncestryDNA 
-hapClusterEnabled false
-maxWindowToDraw 3000000
-visibility pack 
 priority 1
 
-                track Alexa_chr1
-		type vcfTabix
-                bigDataUrl child/Alexa_chr1.vcf.gz
-                shortLabel Child chr1
-                longLabel Child SNPs on chr1 
-                parent MySNPs on
-		
-		track A_chr2
-		type vcfTabix
-		bigDataUrl child/Alexa_chr2.vcf.gz
-		shortLabel Child chr2
-		longLabel Child SNPs on chr2
-                parent MySNPs on
+	track Alexa_chr1
+	type vcfTabix
+	bigDataUrl child/Alexa_chr1.vcf.gz
+	shortLabel Child chr1
+	longLabel Child SNPs on chr1 
+	parent MySNPs
+	# hapClusterEnabled false
+	# hapClusterColorBy=altOnly|refAlt|base
+	# hapClusterTreeAngle=triangle|rectangle
+	# hapClusterHeight=N
+	# applyMinQual=true|false minQual=Q
+	# minFreq=F
+	
+	track A_chr2
+	type vcfTabix
+	bigDataUrl child/Alexa_chr2.vcf.gz
+	shortLabel Child chr2
+	longLabel Child SNPs on chr2
+	parent MySNPs
 				
 ########################################################
 track MotherSNPs
@@ -29,7 +31,7 @@ type vcfTabix
 bigDataUrl mother/Mother.vcf.gz
 shortLabel Mother SNPs
 longLabel Mother Genotype Data from 23&Me
-hapClusterEnabled false
-maxWindowToDraw 3000000
-visibility pack 
+#hapClusterEnabled false
+#maxWindowToDraw 3000000
+#visibility pack 
 priority 2
